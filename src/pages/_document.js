@@ -5,19 +5,6 @@ export default function Document() {
 		<Html lang='en'>
 			<Head>
 				<meta charSet='utf-8' />
-				<script async src='https://www.googletagmanager.com/gtm.js?id=GTM-WXM245MZ'></script>
-				<script>
-					{`
-						try {
-							if (localStorage.get('__framer_force_showing_editorbar_since')) {
-								const n = document.createElement('link')
-								n.rel = 'modulepreload'
-								n.href = 'https://framer.com/edit/init.mjs'
-								document.head.appendChild(n)
-							}
-						} catch (e) {}
-					`}
-				</script>
 				<meta name='viewport' content='width=device-width, initial-scale=1' />
 				<title>LATO AI | AI-Driven Business Process Automation &amp; Custom Software Solutions</title>
 				<meta
@@ -31,6 +18,7 @@ export default function Document() {
 				<meta name='twitter:card' content='summary_large_image' />
 				<meta name='twitter:title' content='LATO AI | AI-Driven Business Process Automation &amp; Custom Software Solutions' />
 				<meta property='twitter:image' content='https://framerusercontent.com/images/Xf5yvKH7jba842oQIjXYxaGUkcE.png' />
+				<script async src='https://www.googletagmanager.com/gtm.js?id=GTM-WXM245MZ'></script>
 				<script async src='https://www.googletagmanager.com/gtag/js?id=G-75TG59FX4T'></script>
 				<script>
 					{`
