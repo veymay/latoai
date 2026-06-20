@@ -11,7 +11,7 @@ export default function MyApp({ Component, pageProps }) {
 		if (router.pathname === '/') {
 			const loadFramerHtml = async () => {
 				try {
-					const response = await fetch('/index.html')
+					const response = await fetch('/framer-index.html')
 					const html = await response.text()
 					const root = document.getElementById('framer-root')
 					if (root) {
